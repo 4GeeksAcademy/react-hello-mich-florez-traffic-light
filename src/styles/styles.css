@@ -1,0 +1,38 @@
+#trafficTop {
+    width: 100px;
+    margin: auto;
+    padding-top: 20px;
+  }
+  
+  #container {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .light {
+    width: 60px;
+    height: 60px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background-color: gray;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .light.active {
+    background-color: currentColor;
+  }
+  
+  .red.light.active {
+    color: red;
+  }
+  
+  .yellow.light.active {
+    color: yellow;
+  }
+  
+  .green.light.active {
+    color: green;
+  }
+  
